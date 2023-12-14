@@ -1,0 +1,9 @@
+All those functions come as a part of the language, and we'll look into a bunch of other built-in Python functions throughout this course. 
+But now we're going to see how to define our own functions to tell the computer to do things that the language's built-in functions don't. 
+Let's start with a simple example. In this piece of code, [on screen] def greeting(name): we're defining a function. [on screen] print("Welcome, " + name) 
+Our function takes the parameter, here that parameter is name and prints a greeting for that name.
+
+def greeting(name, departmnent):
+    print("Welcome, " + name)
+    print("You are part of " + departmnent)
+greeting("Ian", "IT Support")
